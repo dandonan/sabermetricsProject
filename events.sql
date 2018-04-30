@@ -1,0 +1,1 @@
+select GAME_ID, EVENT_ID, EVENT_CD, BAT_ID, PIT_ID, RBI_CT, HOME_TEAM_ID, FLD_ID from events;

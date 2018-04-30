@@ -1,0 +1,1 @@
+select GAME_ID, GAME_DT, PARK_ID from games;parkcode
