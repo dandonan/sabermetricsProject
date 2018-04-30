@@ -1,1 +1,2 @@
-# sabermetricsProject
+# Sabermetrics Final Project
+Daniel Yedidovich
