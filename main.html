@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CoHRE</title>
+    <script src="main.js"></script> 
+    <script type="text/javascript" src="data/CoHRE.json"></script>
+  </head>
+  <body>
+  	<h1>CoHRE</h1>
+  	<h2>Comparative Home Run Effect</h2>
+    <p>Select Player</p>
+  	<select id="playerDropDown" onload="popDropDown()" onchange="selectPlayerChanged()"></select>
+    <p>Select Park</p>
+    <select id="parkDropDown" onchange="selectChanged()"></select>
+
+    <h2 id="compTitle"></h2>
+    <p id="presults">One</p>
+    <p id="pnorm">Two</p>
+    <p id="pcompare">Three</p>
+  </body>
+</html>
